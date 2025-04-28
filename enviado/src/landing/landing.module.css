@@ -1,0 +1,12 @@
+.heroSection { 
+    background-image: url(../assets/landingImage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+
+  }
