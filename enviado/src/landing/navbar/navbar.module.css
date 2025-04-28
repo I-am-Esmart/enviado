@@ -1,0 +1,25 @@
+.nav{
+    background-color: transparent  ;
+    height: 5rem;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    /* margin-bottom: 3rem; */
+}
+.NavContent{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.NavItems{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+
+}
