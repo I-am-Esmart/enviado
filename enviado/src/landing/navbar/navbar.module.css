@@ -1,25 +1,32 @@
-.nav{
-    background-color: transparent  ;
-    height: 5rem;
-    width: 100%;
-    top: 0;
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 50%;
-    /* margin-bottom: 3rem; */
+.nav {
+  background-color: transparent;
+  height: 5rem;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50%;
+  margin-top: 3rem;
 }
-.NavContent{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
+.NavContent {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
 }
-.NavItems{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    /* border: 2px solid black; */
+.NavItems {
+  height: 6rem;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: "Neue Regrade";
+  font-weight: 400;
+  font-size: 1.8rem;
+  background: #ffffff;
 
+  color: #93002a;
 }

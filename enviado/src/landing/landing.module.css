@@ -1,12 +1,43 @@
-.heroSection { 
-    background-image: url(../assets/landingImage.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    right: 0;
+.heroSection {
+  background-image: url(../assets/landingImage.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
 
-  }
+.heroContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigTextContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: "Neue Regrade";
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 8rem;
+  width: 70%;
+  margin-top: 17rem;
+  /* margin: 22.9rem 23.3rem 0 22.7rem; */
+}
+
+.bigTextContainer h1 {
+  margin: 0;
+}
+.bigTextContainer h1:nth-of-type(1) {
+  align-self: flex-start;
+}
+
+.bigTextContainer h1:nth-of-type(2) {
+  align-self: flex-end;
+}
+
+.bigTextContainer h1:nth-of-type(3) {
+  /* align-self: flex-end; */
+}
