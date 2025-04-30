@@ -1,0 +1,39 @@
+.nav {
+  background-color: transparent;
+  height: 5rem;
+  width: 100%;
+  top: 0;
+  position: fixed;
+
+  margin-top: 3rem;
+}
+
+.navWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45%;
+  padding-left: 9.7rem;
+}
+
+.NavContent {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.NavItems {
+  height: 6rem;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: "Neue Regrade";
+  font-weight: 400;
+  font-size: 1.8rem;
+  background: #ffffff;
+
+  color: #93002a;
+}
