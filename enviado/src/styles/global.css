@@ -1,0 +1,46 @@
+/* Reset & base setup */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%; /* 1rem = 10px */
+  color: #333;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Anchor links */
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Images and media */
+img,
+video {
+  /* max-width: 100%; */
+  height: auto;
+  display: block;
+}
+
+/* Buttons */
+button {
+  /* font-family: inherit; */
+  cursor: pointer;
+  border: none;
+  /* background: none; */
+}
+
+/* Optional utility class */
+.section {
+  /* padding: 6rem 2rem; */
+}
