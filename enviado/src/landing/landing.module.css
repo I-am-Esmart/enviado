@@ -23,7 +23,7 @@
   font-family: "Neue Regrade";
   font-weight: 800;
   color: #ffffff;
-  font-size: 8rem;
+  font-size: 7rem;
   width: 70%;
   margin-top: 17rem;
   line-height: 0.9;
@@ -106,10 +106,12 @@
   align-self: start;
 }
 
+/* MEDIA QUERIES */
+
 @media (max-width: 1024px) {
   .bigTextContainer {
     font-size: 5rem;
-    width: 90%;
+    width: 80%;
     margin-top: 10rem;
   }
 
@@ -132,7 +134,7 @@
   .bigTextContainer {
     font-size: 3.8rem;
     line-height: 1.1;
-    width: 95%;
+    width: 80%;
   }
 
   .arrowImage {
@@ -167,23 +169,33 @@
   }
 
   .bigTextContainer {
-    font-size: 2.8rem;
+    font-size: 4rem;
     width: 90%;
     align-items: flex-start;
     line-height: 1.1;
     margin-top: 13rem;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: "Neue Regrade";
+    font-weight: 800;
+    color: #ffffff;
+    width: 70%;
+    margin-top: 17rem;
+    line-height: 0.9;
   }
 
   .bigTextContainer h1 {
-    align-self: flex-start !important;
+    /* border: 1px solid #ffffff; */
   }
 
   .startHereWrapper {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: flex-start;
-    margin-top: 1.5rem;
-    gap: 0.6rem;
-    width: 100%;
+    margin-top: 3.173rem;
+    /* gap: 0.6rem; */
+    width: 90%;
   }
 
   .startHere {

@@ -27,9 +27,9 @@ const Landing = () => {
 
         <div className={style.smallTextContainer}>
           <p>
-            We don't just come up with ideas, products or experiences that push
-            boundaries and challenge the status quo – we also bring in the
-            results!
+            We don't just come up with ideas, products or experiences <br />{" "}
+            that push boundaries and challenge the status quo <br /> – we also
+            bring in the results!
           </p>
         </div>
       </div>
