@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("../assets/fonts/NeueRegrade-Regular.woff2") format("woff2"),
+    url("../assets/fonts/NeueRegrade-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 .heroSection {
   background-image: url(../assets/landingImage.png);
   background-position: center;
